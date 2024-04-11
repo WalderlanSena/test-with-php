@@ -1,0 +1,22 @@
+{
+    "name": "walderlansena/test-with-php",
+    "description": "Test with phpunit",
+    "type": "project",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "11.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Walderlansena\\TestWithPhp\\": "src/",
+            "Walderlansena\\TestWithPhp\\Test\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Walderlan",
+            "email": "senawalderlan@gmail.com"
+        }
+    ]
+}
