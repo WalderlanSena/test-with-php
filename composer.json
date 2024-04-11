@@ -9,8 +9,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Walderlansena\\TestWithPhp\\": "src/",
-            "Walderlansena\\TestWithPhp\\Test\\": "test/"
+            "App\\": "src/",
+            "Test\\": "tests/"
         }
     },
     "authors": [
