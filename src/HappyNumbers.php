@@ -37,12 +37,12 @@ class HappyNumbers
         return ($slow === 1);
     }
 
-    private function squareSum(int $number): float|int
+    private function squareSum(int $number): int
     {
         $squareSum = 0;
         while ($number) {
             $squareSum += ($number % 10) * ($number % 10);
-            $number /= 10;
+            $number = intdiv($number, 10);
         }
 
         return $squareSum;
